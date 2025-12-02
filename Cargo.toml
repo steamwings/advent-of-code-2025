@@ -1,0 +1,16 @@
+[package]
+name = "advent_of_code_2025"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+# Binary targets - each day as a separate executable
+[[bin]]
+name = "day01"
+path = "src/day01.rs"
+
+# Add more days like this:
+# [[bin]]
+# name = "day2"
+# path = "src/day2.rs"
