@@ -18,8 +18,7 @@ DAY=$1
 PART=1
 POSTFIX=""
 
-# Parse optional arguments
-shift
+shift # away the day argument
 for arg in "$@"; do
   case $arg in
     --sample)

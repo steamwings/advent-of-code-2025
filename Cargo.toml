@@ -5,12 +5,10 @@ edition = "2024"
 
 [dependencies]
 
-# Binary targets - each day as a separate executable
 [[bin]]
 name = "day01"
 path = "src/day01.rs"
 
-# Add more days like this:
-# [[bin]]
-# name = "day2"
-# path = "src/day2.rs"
+[[bin]]
+name = "day02"
+path = "src/day02.rs"
