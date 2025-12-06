@@ -41,4 +41,5 @@ if [ ! -f "$INPUT_FILE" ]; then
 fi
 
 echo "Running day ${DAY} (part ${PART})..."
-cargo run --bin "day${DAY}" --release -- "$INPUT_FILE" "$PART"
+# +nightly is required for btree_cursors in Day 5, but otherwise can be removed
+cargo +nightly run --bin "day${DAY}" --release -- "$INPUT_FILE" "$PART"
