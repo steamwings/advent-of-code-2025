@@ -4,6 +4,8 @@ https://adventofcode.com/
 
 My goal is to learn a little Rust; my ~shame~ mediocre effort is on full display. But hey, even a non-mathematically-proficient mouse occasionally finds a log(O) cheese.
 
+Frequently, I've implemented streaming-style algorithms which process the file line by line (rather than loading it all in memory first).
+
 ```sh
 # run some things
 ./run.sh 01 # run day 1 part 1 from puzzle input
